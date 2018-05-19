@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Cute+Font|Montserrat');
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  border: 0px;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Montserrat', lato, sans-serif;
+  color: #fff;
+
+  background: -moz-linear-gradient(102deg, rgba(255,98,0,1) 0%, rgba(255,143,51,1) 25%, rgba(255,194,51,1) 50%, rgba(255,143,51,1) 75%, rgba(255,98,0,1) 100%) no-repeat; /* ff3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,98,0,1)), color-stop(25%, rgba(255,143,51,1)), color-stop(50%, rgba(255,194,51,1)), color-stop(75%, rgba(255,143,51,1)), color-stop(100%, rgba(255,98,0,1))) no-repeat; /* safari4+,chrome */
+background: -webkit-linear-gradient(102deg, rgba(255,98,0,1) 0%, rgba(255,143,51,1) 25%, rgba(255,194,51,1) 50%, rgba(255,143,51,1) 75%, rgba(255,98,0,1) 100%) no-repeat; /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(102deg, rgba(255,98,0,1) 0%, rgba(255,143,51,1) 25%, rgba(255,194,51,1) 50%, rgba(255,143,51,1) 75%, rgba(255,98,0,1) 100%) no-repeat; /* opera 11.10+ */
+background: -ms-linear-gradient(102deg, rgba(255,98,0,1) 0%, rgba(255,143,51,1) 25%, rgba(255,194,51,1) 50%, rgba(255,143,51,1) 75%, rgba(255,98,0,1) 100%) no-repeat; /* ie10+ */
+background: linear-gradient(348deg, rgba(255,98,0,1) 0%, rgba(255,143,51,1) 25%, rgba(255,194,51,1) 50%, rgba(255,143,51,1) 75%, rgba(255,98,0,1) 100%) no-repeat; /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6200', endColorstr='#ff6200',GradientType=0 ); /* ie6-9 */
+}
+
+header {
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 20px; 
+}
+
+header h1 {
+  font-size: 4em;
+  font-family: 'Cute font', lato, sans-serif;
+  word-spacing: 4px;
+  letter-spacing: 4px;
+  text-shadow: 0px 0px 10px #bd0f0f;
+  margin-top: 0.2em;
+}
+
+hr.header-divider {
+  display: block;
+  overflow: hidden;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-style: inset;
+  background-color: #fff;
+}
+
+table#channels-list {
+    width: 80%;
+    margin: auto;
+    border-spacing: 0 0.7em;
+    border-radius: 5px;
+    color: #ff6200;
+}
+
+table .channel-name {
+  font-family: 'Comfortaa','Montserrat', lato, sans-serif;
+}
+
+table .channel-logo {
+  width: 150px;
+  border-radius: 100%;
+  margin: 1em 2em;
+}
+
+table tr.channel-info-row {
+  border: 5px;
+  background-color: #fff;
+}
+
+table tr.channel-info-row td:last-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+table tr.channel-info-row td:first-child {
+    border-radius: 10px 0px 0px 10px;
+}
